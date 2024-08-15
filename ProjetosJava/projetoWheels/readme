@@ -1,0 +1,19 @@
+Projeto de Aluguel de Bicicletas
+Este projeto é um sistema simples de aluguel de bicicletas, desenvolvido em Java. Ele permite gerenciar bicicletas disponíveis para aluguel, processar locações, calcular custos, criar perfis de clientes e processar pagamentos, incluindo o envio de recibos por e-mail.
+
+Funcionalidades
+Gerenciamento de Bicicletas: Permite visualizar detalhes das bicicletas disponíveis, como depósito, taxa de aluguel e número de identificação. Também calcula o custo do aluguel baseado no número de dias.
+
+Processamento de Locações: Cria uma locação associada a um cliente e uma bicicleta específica, armazenando informações como data de início e duração do aluguel.
+
+Gestão de Clientes: Criação de perfis de clientes com informações como nome, código postal, telefone, e e-mail.
+
+Pagamentos e Recibos: Calcula o pagamento total de uma locação e envia um recibo detalhado por e-mail ao cliente.
+
+Estrutura do Código
+Main.java: Ponto de entrada do programa que inicializa a interface de usuário e realiza operações principais.
+Bike.java: Representa as bicicletas disponíveis para aluguel.
+Hire.java: Gerencia as locações de bicicletas.
+Customer.java: Armazena informações dos clientes.
+Payment.java: Lida com pagamentos e o envio de recibos por e-mail.
+IssueBikeUI.java: Interface de usuário para interação com o sistema de aluguel.
