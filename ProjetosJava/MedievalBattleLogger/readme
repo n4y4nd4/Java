@@ -1,0 +1,14 @@
+Projeto de Relatório de Batalhas Medievais
+Este projeto é um simulador de batalhas medievais, desenvolvido em Java. O sistema permite que jogadores escolham heróis, enfrentem monstros em batalhas, e armazenem o resultado dessas batalhas em um arquivo de log. Posteriormente, os jogadores podem visualizar um relatório detalhado de suas batalhas.
+
+Funcionalidades
+Simulação de Batalhas: Os jogadores podem escolher entre diferentes classes de heróis (Guerreiro, Bárbaro, Paladino) e lutar contra monstros gerados aleatoriamente (Morto Vivo, Orc, Kobold). As batalhas são decididas com base em atributos como vida, força, defesa, e agilidade dos personagens.
+
+Registro de Batalhas: Após cada batalha, o resultado é salvo em um arquivo de log no formato CSV. O registro inclui detalhes como data, nome do herói, resultado da batalha (ganhou ou perdeu), nome do monstro enfrentado, e número de rodadas.
+
+Relatório de Batalhas: Os jogadores podem gerar relatórios detalhados com base nos logs de batalhas. O relatório mostra o herói mais jogado, o monstro mais enfrentado, e o total de pontos acumulados pelo jogador.
+
+Estrutura do Código
+MedievalBattle.java: Simula as batalhas entre heróis e monstros, e salva os registros das batalhas em um arquivo CSV.
+Personagem.java (e subclasses): Define a estrutura básica dos personagens (heróis e monstros), incluindo atributos e métodos para calcular ataque, defesa, e dano.
+BattleReport.java: Lê os arquivos de log e gera relatórios detalhados para os jogadores.
